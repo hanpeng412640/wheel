@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 Vue.use(VueLazyload, {
   preLoad: 1.3,
   error: 'dist/error.png',
-  loading: '../static/lazyload.png',
+  loading: './static/lazyload.png',
   attempt: 1
 })
 /* eslint-disable no-new */

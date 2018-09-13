@@ -10,7 +10,7 @@ const login  = ()=>import('../components/login');
 Vue.use(Router)
 
 let router= new Router({
-  mode:'hash',
+  mode:'history',
   routes: [
     {
        path:'*',

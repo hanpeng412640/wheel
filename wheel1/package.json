@@ -1,5 +1,5 @@
 {
-  "name": "wheel",
+  "name": "wheel1",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "hanpeng <412640480@qq.com>",
@@ -10,16 +10,13 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue": "^2.5.2"
   },
   "devDependencies": {
-    "@alicloud/sms-sdk": "^1.1.3",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.1",
-    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-runtime": "^6.22.0",
     "babel-plugin-transform-vue-jsx": "^3.5.0",
@@ -48,6 +45,7 @@
     "url-loader": "^0.5.8",
     "vue-lazyload": "^1.2.6",
     "vue-loader": "^13.3.0",
+    "vue-router": "^3.0.1",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
     "vuex": "^3.0.1",

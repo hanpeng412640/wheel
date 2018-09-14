@@ -10,6 +10,7 @@
  export default {
     methods:{
         login(){
+           _hmt.push(['_trackEvent',' 汽车报价', 'tap', '登录按钮点击']);
            let username=this.$refs.user.value 
            let password=this.$refs.pass.value 
            console.log(username)

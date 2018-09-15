@@ -123,3 +123,11 @@ export let submit = (info)=>{
     search[0] = '?'
     return getRes(`${host}/h2-submit-lowprice.html${search}`);
 }
+/**
+ * 获取短信验证码
+ * @param phone     用户的手机号
+ * @return promise  返回一个promise
+ */
+export let getCapture = (phone)=>{
+    return getRes(`http://123.206.55.50:8080/getCapture`, 'POST', {phone});
+}
